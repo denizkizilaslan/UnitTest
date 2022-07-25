@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UnitTest.Business/1.0.0": {
+        "dependencies": {
+          "UnitTest.DataAccess": "1.0.0",
+          "UnitTest.Entities": "1.0.0"
+        },
+        "runtime": {
+          "UnitTest.Business.dll": {}
+        }
+      },
+      "UnitTest.DataAccess/1.0.0": {
+        "dependencies": {
+          "UnitTest.Entities": "1.0.0"
+        },
+        "runtime": {
+          "UnitTest.DataAccess.dll": {}
+        }
+      },
+      "UnitTest.Entities/1.0.0": {
+        "runtime": {
+          "UnitTest.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnitTest.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnitTest.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnitTest.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
